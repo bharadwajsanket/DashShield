@@ -246,7 +246,7 @@ Full hard reject requires: CAS < 0.55 **AND** ring flag simultaneously. Dual-con
 | Backend | Python FastAPI (async) · SQLAlchemy · Pydantic · JWT auth |
 | ML | scikit-learn (Random Forest · Isolation Forest) · XGBoost |
 | Trigger Engine | APScheduler (cron every 15min) · tenacity (circuit breaker) |
-| Database | PostgreSQL via Supabase (free tier) |
+| Database | PostgreSQL |
 | Cache | Redis via Upstash (free tier) — circuit breaker weather fallback |
 | Payments | Razorpay Test Mode — mock UPI payout |
 | Weather | OpenWeatherMap API (free tier) |
